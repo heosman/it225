@@ -9,3 +9,5 @@ class Customer():
     def getPhoneNumber(self):
         return self.phonenumber
 
+    def __str__(self):
+        return self.userid + ' ' + self.phonenumber

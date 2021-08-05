@@ -12,3 +12,6 @@ class Item():
 
     def getCost(self):
         return self.cost
+
+    def __str__(self):
+        return self.itemid + ' ' + self.itemname + ' ' + self.cost
